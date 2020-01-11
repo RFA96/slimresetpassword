@@ -4,7 +4,7 @@ Created by: Raka Admiral Abdurrahman
 
 ## Install the Application
 
-If you use XAMPP, Run this application by dropping this project folder to `htdocs`. For macOS and Linux users, ensure the `logs/` directory is writeable.
+If you use XAMPP, install this application by dropping this project folder into `htdocs`. For macOS and Linux users, ensure the `logs/` directory is writeable.
 
 Run this command to assign a writeable `/logs` directory.
 ```
