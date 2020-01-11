@@ -4,11 +4,15 @@ Created by: Raka Admiral Abdurrahman
 
 ## Install the Application
 
-Run this command from the directory in which you want to install your new Slim Framework application.
+If you use XAMPP, Run this application by dropping this project folder to htdocs. For macOS and Linux users, ensure the `logs/` directory is writeable.
 
-    php composer.phar create-project slim/slim-skeleton [my-app-name]
+Run these command to assign a writeable `/logs` directory.
+```
+sudo chmod -R 777 logs
+```
 
-Replace `[my-app-name]` with the desired directory name for your new application. You'll want to:
-
-* Point your virtual host document root to your new application's `public/` directory.
-* Ensure `logs/` is web writeable.
+## Run the Application
+If you want to run this app with XAMPP, go to this link to check if this project running well
+```
+http://localhost/slimresetpassword/public
+```
