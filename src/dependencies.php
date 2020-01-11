@@ -1,10 +1,6 @@
 <?php
 
 use Slim\App;
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
-
-require '../vendor/autoload.php';
 
 return function (App $app) {
     $container = $app->getContainer();
