@@ -6,7 +6,7 @@ Created by: Raka Admiral Abdurrahman
 
 If you use XAMPP, Run this application by dropping this project folder to `htdocs`. For macOS and Linux users, ensure the `logs/` directory is writeable.
 
-Run these command to assign a writeable `/logs` directory.
+Run this command to assign a writeable `/logs` directory.
 ```
 sudo chmod -R 777 logs
 ```
